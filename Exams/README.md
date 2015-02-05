@@ -26,3 +26,4 @@
 |\w+ |matches letters (Unicode)|
 |\W+ |matches non-letters|
 |\+\d{1,3}([-]*[0-9]+)+ |matches international phone|
+|helpful source|[http://www.regexr.com/](http://www.regexr.com/)|
