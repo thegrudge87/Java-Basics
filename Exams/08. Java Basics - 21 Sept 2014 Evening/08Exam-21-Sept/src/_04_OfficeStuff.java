@@ -40,9 +40,10 @@ public class _04_OfficeStuff {
 			String output = key + ": ";
 			Map<String, Integer> infoMap = ordersMap.get(key);
 			for (String infoMapKey : infoMap.keySet()) {
-				output += String.format("%s-%d",infoMapKey, infoMap.get(infoMapKey));
+				output += String.format("%s-%d, ",infoMapKey, infoMap.get(infoMapKey));
 			}
-			System.out.println(output);
+			// for the out put we must remove the last to characters ", "
+			System.out.println(output.substring(0, output.length()-2));
 		}
 	}
 }
