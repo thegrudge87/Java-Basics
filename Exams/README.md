@@ -27,3 +27,4 @@
 |\W+ |matches non-letters|
 |\+\d{1,3}([-]*[0-9]+)+ |matches international phone|
 |helpful source|[http://www.regexr.com/](http://www.regexr.com/)|
+|regex to java|[http://www.regexplanet.com](http://www.regexplanet.com/advanced/java/index.html)|
